@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "oldVault",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "newVault",
+                    "type": "address"
+                }
+            ],
+            "name": "MevEthShareVaultUpdateCanceled",
+            "type": "event"
+        },
+        "contract_address": "0x24ae2da0f361aa4be46b48eb19c91e02c5e4f27e",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "",
+        "schema": [
+            {
+                "description": "",
+                "name": "oldVault",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "newVault",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "MevEth_event_MevEthShareVaultUpdateCanceled"
+    }
+}

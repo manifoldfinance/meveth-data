@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "oldOperator",
+                    "type": "address"
+                }
+            ],
+            "name": "OperatorDeleted",
+            "type": "event"
+        },
+        "contract_address": "0x24ae2da0f361aa4be46b48eb19c91e02c5e4f27e",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "",
+        "schema": [
+            {
+                "description": "",
+                "name": "oldOperator",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "MevEth_event_OperatorDeleted"
+    }
+}
